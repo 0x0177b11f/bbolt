@@ -17,7 +17,7 @@ import (
 	"time"
 	"unsafe"
 
-	bolt "go.etcd.io/bbolt"
+	bolt "github.com/0x0177b11f/bbolt"
 )
 
 var statsFlag = flag.Bool("stats", false, "show performance stats")

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	bolt "go.etcd.io/bbolt"
+	bolt "github.com/0x0177b11f/bbolt"
 	"golang.org/x/sys/unix"
 )
 

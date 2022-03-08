@@ -92,7 +92,7 @@ your `$GOBIN` path.
 To use bbolt as an embedded key-value store, import as:
 
 ```go
-import bolt "go.etcd.io/bbolt"
+import bolt "github.com/0x0177b11f/bbolt"
 
 db, err := bolt.Open(path, 0666, nil)
 if err != nil {
@@ -117,7 +117,7 @@ package main
 import (
 	"log"
 
-	bolt "go.etcd.io/bbolt"
+	bolt "github.com/0x0177b11f/bbolt"
 )
 
 func main() {
